@@ -3,15 +3,15 @@
 ## About iSEE
 iSEE is a computational predictor of binding affinity changes upon mutations (∆∆G), which is developed by using **i**nterface **S**tructure, **E**volution and **E**nergy-based features through random forest method [1].
 
-This repository provides the iSEE predictor that you can use to do ∆∆G prediction and to identify the effects of mutations on your protein complexes. Besides, we provide all features data used in the iSEE work [1].
+This repository provides the iSEE predictor that you can use to do ∆∆G prediction and to identify the effects of mutations on your protein complexes. Besides, we provide all features data used in the iSEE project [1].
 
-For the HADDOCK-refined models of wild type and mutant complexes as well as the PSSM files used to construct features, you can find them on SBGrid (doi:10.15785/SBGRID/520).
+For the HADDOCK-refined models of wild type and mutant complexes as well as the PSSM files used to construct features, you can find them on SBGrid ([doi:10.15785/SBGRID/520](https://data.sbgrid.org/dataset/520)).
 
 Please cite the article [1] if you use iSEE.
 
 
 ## Requirements
-To use iSEE ∆∆G predictor, standard **R** installations and **randomForest** package must be installed.
+To use iSEE ∆∆G predictor, standard [R](https://www.r-project.org/) installations and [randomForest](https://cran.r-project.org/web/packages/randomForest/) package must be installed.
 
 
 ## Usage
