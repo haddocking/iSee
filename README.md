@@ -31,12 +31,17 @@ To use the iSEE ∆∆G predictor at the command line type:
 
 The directory `isee_features_data` contains all features data used in this work[1].
 
-- `features_training_dataset.tsv`: Features used as training dataset.
-- `features_NM_test_dataset.tsv`: The independent NM dataset of Benedix et al. Nature Methods 2009.
-- `features_MDM2-p53_top4_test_dataset.tsv`: The independent MDM2-p53 test dataset based on the top 4 HADDOCK refined models.
-- `features_MDM2-p53_top1_test_dataset.tsv`: The independent MDM2-p53 test dataset based on the top 1 HADDOCK refined model.
-- `features_MDM2-p53_top4_full_mutations.tsv`: Features used for MDM2-p53 full mutations based on the 4 HADDOCK refined models.
-- `features_MDM2-p53_top1_full_mutations.tsv`: Features used for MDM2-p53 full mutations based on the 1 HADDOCK refined model.
+Features based on the top 1 HADDOCK refined model:
+- `features_training_dataset_top1.tsv`: Features used as training dataset. The `iSEE.model` we provide here is trained on these data.
+- `features_NM_test_dataset_top1.tsv`: The independent NM test dataset of Benedix et al. Nature Methods 2009.
+- `features_MDM2-p53_test_dataset_top1.tsv`: The independent MDM2-p53 test dataset.
+- `features_MDM2-p53_full_mutations_top1.tsv`: Features used for MDM2-p53 full mutations.
+
+Average features based on the top 4 HADDOCK refined models:
+- `features_training_dataset_top4.tsv`
+- `features_NM_test_dataset_top4.tsv`
+- `features_MDM2-p53_test_dataset_top4.tsv`
+- `features_MDM2-p53_full_mutations_top4.tsv`
 
 
 ## Reference
