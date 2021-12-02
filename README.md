@@ -11,7 +11,7 @@ Please cite the article [1] if you use iSEE.
 
 
 ## Requirements
-To use the iSEE ∆∆G predictor, [R](https://www.r-project.org/) and the [randomForest](https://cran.r-project.org/web/packages/randomForest/) packages must be installed.
+To use the iSEE ∆∆G predictor, [R](https://www.r-project.org/) and R packages [randomForest](https://cran.r-project.org/web/packages/randomForest/) and [caret](https://cran.r-project.org/web/packages/caret/) must be installed.
 
 
 ## Usage
