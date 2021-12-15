@@ -11,7 +11,18 @@ Please cite the article [1] if you use iSEE.
 
 
 ## Requirements
-To use the iSEE ∆∆G predictor, [R](https://www.r-project.org/) and R packages [randomForest](https://cran.r-project.org/web/packages/randomForest/) and [caret](https://cran.r-project.org/web/packages/caret/) must be installed.
+1. Download and install [R](https://www.r-project.org/). After installing, type command `R` or `RScript` in your terminal, they should be available now.
+2. Install R packages [randomForest](https://cran.r-project.org/web/packages/randomForest/) and [caret](https://cran.r-project.org/web/packages/caret/)
+```r
+# Enter R enviroment
+R
+
+# Install R packages
+> install.packages(c("caret", "randomForest"))
+
+# Quit R environment
+> q()
+```
 
 
 ## Usage
